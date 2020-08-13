@@ -1,0 +1,81 @@
+.jumbo {
+background-image: url("../../Images/MOJO-header.png");
+height: 50vw !important;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.aboutSection {
+    background-image: url(../../Images/HP-about.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vw !important;
+    background-repeat: no-repeat;
+}
+
+
+.servicesSection {
+    background-image: url(../../Images/HP-services.png);
+    background-size: cover;
+    height: 50vw !important;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.aboutUsTitle {
+    color:#158994 ;
+    padding-top: 12%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.aboutUsText {
+    padding-right: 5%;
+    text-align: left;
+    padding-left: 10%;
+
+    padding-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.servicesTitle {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #FF8B9E ;
+}
+
+.servicesCards {
+   text-align: center;
+}
+
+.cardOverlay:hover {
+    background-color: #ffbac6;
+}
+
+.HPLinks {
+    text-align: center;
+    padding-top: 28%;
+}
+
+.link {
+    color: white;
+    margin: 2%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.link:hover {
+    color: #FF8B9E;
+    text-decoration: none;
+}
+
+
+
