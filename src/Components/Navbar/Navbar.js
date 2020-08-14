@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
     Link
   } from "react-router-dom";
 
@@ -18,7 +17,6 @@ import logo from '../../Images/MOJO-nav.png';
 
 const NavBar = () => {
     return (
-        <Router basename={`${process.env.PUBLIC_URL}/`}>
         <Container className="p-0" fluid={true}>
         <Navbar sticky="top" className="border-bottom nav" expand="lg">
         <Navbar.Brand href="/">
@@ -41,7 +39,6 @@ const NavBar = () => {
         </Navbar>       
 
       </Container>
-    </Router>
     )
 }
 

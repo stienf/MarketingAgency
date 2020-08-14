@@ -4,6 +4,8 @@ height: 50vw !important;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+text-align: center;
+
 }
 
 .aboutSection {
@@ -12,6 +14,15 @@ background-size: cover;
     background-position: center;
     height: 50vw !important;
     background-repeat: no-repeat;
+}
+
+.about{
+    background-color: #FF8B9E;
+    width: 30vw;
+    height: 30vw;
+    margin-right: 45vw;
+    margin-top: 5vw;
+    z-index: 1;
 }
 
 
@@ -23,12 +34,29 @@ background-size: cover;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;   
     font-size: 70px;
+   
+}
+
+.headerTitle {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing:14px;
+  text-indent:7px;
+    font-size: 8rem !important;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10vw;
 }
 
 .aboutUsTitle {
-    color:#158994 ;
+    color:white ;
     padding-top: 12%;
     text-align: left;
     padding-left: 10%;
@@ -38,9 +66,9 @@ h1 {
     padding-right: 5%;
     text-align: left;
     padding-left: 10%;
-
+    font-weight: bold;
     padding-top: 2%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -48,7 +76,7 @@ h1 {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    color: #FF8B9E ;
+    color: white ;
 }
 
 .servicesCards {
@@ -60,22 +88,88 @@ h1 {
 }
 
 .HPLinks {
-    text-align: center;
-    padding-top: 28%;
+  text-align: center;
+   
+  
 }
 
 .link {
-    color: white;
+    color: #FF8B9E;
     margin: 2%;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 }
 
 .link:hover {
-    color: #FF8B9E;
+    color: white;
     text-decoration: none;
+}
+
+.testimonialSection {
+    background-image: url(../../Images/HP-testimonials.png);
+    background-size: cover;
+    height: 50vw !important;
+    background-repeat: no-repeat;
+}
+
+.testimonialTitle {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #188A95 ;
+}
+
+.hpserv{
+    text-align: center;
+    text-transform: uppercase;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2vw;
+}
+
+.servicesImg{
+    width: 15vw;
+    height: 15vw;
+}
+
+.services{
+    display: flex;
+    align-items: center !important;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.serviceImgWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.servBtn {
+    text-align: center;
+    margin-top: 5vw; 
+    background-color:#188A95 !important;
+    color:white;  
+    border: 1px solid #188A95;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 
 
+.testBtn {
+    text-align: center;
+    color:#188A95;  
+    border: 1px solid #188A95;
+    font-family: 'Roboto', sans-serif;
+    background-color: unset !important;
+}
+
+.testBtn:hover {
+    background-color:#188A95 !important;
+    color: white; 
+    border: unset;
+}

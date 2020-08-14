@@ -16,7 +16,7 @@ const App = (props) => (
       <Route exact path="/">
         <FirstPage />
       </Route>
-      <Route exact path="/about">
+      <Route path="/about">
         <About />
       </Route>
       <Route path="/services">
