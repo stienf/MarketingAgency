@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import '../FirstPage/FirstPage.css'
 
 import marketing from '../../Images/marketing.jpg';
@@ -14,12 +16,16 @@ import strategy from '../../Images/strategy.jpg'
 
 
 const FirstPage = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000}) }, []);
+
   return (
     <>
       <Jumbotron className="jumbo">
       <Container className="header">
-      <h1 className="headerTitle">MARKETING</h1>
-      <h1 className="headerTitle">AGENCY</h1>
+      <h1 data-aos="zoom-in" className="headerTitle">MARKETING</h1>
+      <h1 data-aos="zoom-in" className="headerTitle">AGENCY</h1>
       </Container>
       
     <Container className="HPLinks" fluid={true}>
@@ -34,7 +40,7 @@ const FirstPage = () => {
       <Container fluid={true}>
         <Row className="aboutSection">
           <Col lg={12} className="aboutSection">
-            <Container className="about">
+            <Container data-aos="fade-left" className="about">
             <h1 className="aboutUsTitle">ABOUT US</h1>
             <p className="aboutUsText">
               Founded by 3 women, MOJO is a marketing agency based in Brussels, Belgium.<br/>
@@ -51,29 +57,29 @@ const FirstPage = () => {
       <Container fluid={true} className="servicesSection">
         <Row >
           <Col lg={12}>
-            <h1 className="servicesTitle">OUR SERVICES</h1>
+            <h1 data-aos="fade-up" className="servicesTitle">OUR SERVICES</h1>
           </Col> 
           </Row>
        <Row className="services">
           <Col className="serviceImgWrap" lg={4}>
           
-          <Image className="servicesImg" src={marketing} roundedCircle />
-          <h2 className="hpserv">Marketing</h2>
+          <Image data-aos="fade-up" className="servicesImg" src={marketing} roundedCircle />
+          <h2 data-aos="fade-up" className="hpserv">Marketing</h2>
           </Col>
           <Col className="serviceImgWrap" lg={4}>
           
-          <Image className="servicesImg" src={webdev} roundedCircle />
-          <h2 className="hpserv">Development & Design</h2>
+          <Image data-aos="fade-up" className="servicesImg" src={webdev} roundedCircle />
+          <h2 data-aos="fade-up" className="hpserv">Development & Design</h2>
           </Col>
           <Col className="serviceImgWrap" lg={4}>
           
-          <Image className="servicesImg" src={strategy} roundedCircle />
-          <h2 className="hpserv">Digital Strategy</h2>
+          <Image data-aos="fade-up" className="servicesImg" src={strategy} roundedCircle />
+          <h2 data-aos="fade-up" className="hpserv">Digital Strategy</h2>
           </Col>
         </Row>
         <Row>
           <Col className="serviceImgWrap" lg={12}>        
-          <Button className="servBtn" href="#">read more about our services</Button>
+          <Button data-aos="fade-up" className="servBtn" href="#">read more about our services</Button>
         </Col>
         </Row>
       </Container>
@@ -86,7 +92,7 @@ const FirstPage = () => {
             <Container className="center">
             <Row>
               <Col className="servicesCards col d-flex justify-content-center">
-            <Card style={{ width: '18rem' }} className="cardOverlay">
+            <Card data-aos="flip-left" style={{ width: '18rem' }} className="cardOverlay">
               <Card.Img variant="top" src={marketing} />
               <Card.Body>
                 <Card.Text>
@@ -98,7 +104,7 @@ const FirstPage = () => {
             </Card>
             </Col>
             <Col className="servicesCards col d-flex justify-content-center">
-            <Card style={{ width: '18rem' }} className="cardOverlay">
+            <Card data-aos="flip-left" style={{ width: '18rem' }} className="cardOverlay">
               <Card.Img variant="top" src={webdev}/>
               <Card.Body>
                 <Card.Text>
@@ -110,7 +116,7 @@ const FirstPage = () => {
             </Card>
             </Col>
             <Col className="servicesCards col d-flex justify-content-center">
-            <Card style={{ width: '18rem' }} className="cardOverlay">
+            <Card data-aos="flip-left" style={{ width: '18rem' }} className="cardOverlay">
               <Card.Img variant="top" src={strategy} />
               <Card.Body>
                 <Card.Text>

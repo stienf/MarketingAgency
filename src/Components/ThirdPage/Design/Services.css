@@ -1,0 +1,110 @@
+.brand img {
+  width: 550px;
+  height: 230px;
+  margin-top: 1.3rem;
+  border-radius: 0.75rem;
+}
+
+.service img {
+  width: 800px;
+  height: 220px;
+  margin-bottom: 13rem;
+  margin-top: 4rem;
+  border-radius: 0.3rem;
+}
+
+.gif img {
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.text {
+  color: black !important;
+  text-align: center;
+  margin-top: 0.85rem;
+}
+
+.services {
+  padding: 0.2rem;
+}
+
+.branding {
+  margin-top: 3rem;
+}
+
+.description {
+  text-align: justify;
+  color: black !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 50 !important;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #ff8b9e;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0 0 1px black;
+  color: #158994;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+h6 {
+  margin-left: 3rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.marketing img {
+  width: 300px;
+  height: 308px;
+  padding: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.development img {
+  width: 300px;
+  height: 308px;
+  padding: 0.2rem;
+  margin-bottom: 5rem;
+}
+
+.strategy img {
+  width: 300px;
+  height: 308px;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.marketing {
+  background-color: #158994;
+  height: 308px;
+  width: 370px;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.development {
+  background-color: #ff8b9e;
+  height: 308px;
+  width: 370px;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.strategy {
+  background-color: #158994;
+  height: 308px;
+  width: 370px;
+  color: black;
+  margin-bottom: 1rem;
+}
