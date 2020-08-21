@@ -1,0 +1,36 @@
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    margin: 0rem;
+    font-weight: 300 !important;
+    color: black !important;
+  }
+
+  button {
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  .next img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .prev img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-style: hidden;
+  }
+  
+  button:focus {
+    outline: 0px;
+  }
+
+  
+li {
+    color: white;
+    font-weight: 300;
+  }
